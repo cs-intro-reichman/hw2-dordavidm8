@@ -20,7 +20,7 @@ public class Cheers {
     Letter == 'O' || Letter == 'R' || Letter == 'S' || Letter == 'X') {
 System.out.printf("Give me an %c: %c!\n", Letter, Letter);
 } else {
-   System.out.printf("Give me a %c: %c!\n", Letter, Letter);
+    System.out.printf("Give me a  %c: %c!\n", Letter, Letter);
      
 }
 
