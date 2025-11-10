@@ -11,7 +11,7 @@ public class TimeCalc {
         int FinelMin = totalMinutes % 60;
 
          
-         	System.out.printf("%d:%02d \n", FinelHour, FinelMin );	
+         	System.out.printf("%02d:%02d\n", FinelHour, FinelMin );	
         }
 
     }

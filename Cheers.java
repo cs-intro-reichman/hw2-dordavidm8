@@ -28,7 +28,7 @@ System.out.printf("Give me an %c: %c!\n", Letter, Letter);
         System.out.printf("What does that spell?\n");
         
         for (int j = 0; j < NumCheers ; j++)
-        System.out.printf("%s!!!\n", Word);
+        System.out.printf("%s!!!\n", word);
 
         }
 }

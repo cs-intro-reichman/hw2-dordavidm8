@@ -27,7 +27,7 @@ public class Collatz {
                 }
 
                 System.out.println("(" + steps + ")");
-				System.out.println("(" + steps + ")");
+				
 				
             }
 
