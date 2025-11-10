@@ -8,17 +8,17 @@ public class Collatz {
                 int current = i;
                 int steps = 0;
 
-                // לולאת הריצה
+                
                 while (true) {
                     System.out.print(current + " ");
                     steps++;
 
-                    // תנאי מיוחד: אם זה seed=1 והגענו רק פעם אחת (steps==1) → נמשיך
+                    
                     if (current == 1 && !(i == 1 && steps == 1)) {
-                        break; // עוצרים רק אם זה לא המקרה של 1 ההתחלתי
+                        break; 
                     }
 
-                    // חוקי קולץ
+                    
                     if (current % 2 == 0) {
                         current = current / 2;
                     } else {
@@ -27,6 +27,8 @@ public class Collatz {
                 }
 
                 System.out.println("(" + steps + ")");
+				System.out.println("(" + steps + ")");
+				
             }
 
             System.out.println("Every one of the first " + countNum + " hailstone sequences reached 1.");
